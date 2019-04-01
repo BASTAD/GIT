@@ -11,7 +11,7 @@ Student::Student()
 	;
 }
 
-Student::Student(char name[], char number[], int age, int Which_Class)
+Student::Student(char name[], char number[], int age, int Which_Class)//ÔÙ´Î²âÊÔ
 {
 	strcpy(this->name, name); 
 	strcpy(this->number, number);
